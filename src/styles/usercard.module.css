@@ -1,0 +1,17 @@
+
+.text p{
+    margin-top: -4px;
+    text-align: left;
+    padding: 0 0 0 18px;
+    font-size: 15px;
+}
+.imgBox{
+    width: 100%;
+}
+img{
+width: 95%;
+/* padding: ; */
+}
+.comment{
+    margin-bottom: 80px;
+}

@@ -1,0 +1,179 @@
+.mobileNavGenDiv{
+    visibility: hidden;
+
+}
+.genDiv{
+    width: 100%;
+    /* background-color: black; */
+    box-shadow: 5px 0 5px 0 #000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 78%;
+    height: 52px;
+   
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* margin: 0 auto; */
+}
+
+
+.imgInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgInput input{
+    width: 250px;
+    height: 25px;
+    padding: 5px 0px 0 10px;
+}
+.imgDiv img{
+    width: 35px;
+}
+
+.iconsDiv{
+    display: flex;
+    gap: 28px;
+    font-size: 14px;
+    color: #666666;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+}
+
+
+.linkDiv{
+    /* border: 1px solid #000; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+   line-height: 0.2;
+}
+.linkDiv  :hover{
+    /* font-weight: 200; */
+    /* font-size: 11px; */
+    /* color: aqua; */
+
+}
+.linkDiv p{
+    font-size: 13px;
+    font-weight: 100;
+    /* width: 100px; */
+    /* font-weight: bold; */
+}
+.linkDiv a{
+    text-decoration: none;
+    color: #666666;
+}
+.icon{
+    font-size: 22px;
+}
+.icon:hover{
+    color: #000;
+}
+.profilePic{
+    width: 26px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.profilePicText{
+    /* font-size: 14px; */
+    margin-top: -3px;
+}
+.textIcon{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    text-align: center;
+}
+.textIcon p{
+    margin-top: 10px;
+}
+
+.linkDiv .premiumLink  {
+    color: goldenrod ;
+    text-decoration: underline ;
+    
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:1200px) {
+    
+}
+@media only screen and (max-width:768px) {
+    
+}
+@media only screen and (max-width:425px) {
+   .genDiv{
+    display: none;
+   }
+   .mobileNavGenDiv{
+    visibility:visible ;
+
+    display: flex;
+   
+    height: 52px;
+   }
+   .mParentDiv{
+    /* border: 1px solid red; */
+    box-shadow: 0 0 1px 0 #000;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin:1px auto;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .mLogo{
+    width: 34px;
+   }
+   .imgInput{
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+   }
+   .inputDiv input{
+    width: 30px;
+    height: 18px;
+    font-size: 8px;
+    margin-top: -4px;
+    outline: #fff;
+   
+    background-image: url(../assets/search-icon.png);
+    background-size: 19px;
+    background-repeat: no-repeat;
+   }
+   .linkDiv{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+   }
+   .mobileInput{
+    width: 30px;
+   }
+   .icon{
+    font-size: 28px;
+   }
+   
+    
+}

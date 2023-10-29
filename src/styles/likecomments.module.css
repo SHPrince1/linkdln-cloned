@@ -1,0 +1,30 @@
+
+
+
+.likeComments{
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numLikes{
+    display: flex;
+    align-items: center;
+    gap: 4px    ;
+    font-size: 10px;
+}
+.numLikesIcon{
+    /* background-color: aqua; */
+    color: blue;
+    font-size: 20px;
+}
+.commentDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.commentDivIcon{
+    line-height: 0.1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+    

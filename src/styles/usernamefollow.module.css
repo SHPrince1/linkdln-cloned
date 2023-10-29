@@ -1,0 +1,43 @@
+.nameBox {
+  display: flex;
+  gap: 1px;
+  justify-content: space-around;
+  align-items: center;
+}
+.nameBox img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.imgTextName {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.nameText {
+  line-height: 0;
+  line-height: 0;
+  text-align: left;
+  width: 237px;
+}
+.nameText p {
+  margin-top: 0;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.follow {
+  color: blue;
+  font-size: 14px;
+}
+.text {
+  text-align: left;
+  margin-top: -14px;
+  padding: 4px 2px 2px 18px;
+}

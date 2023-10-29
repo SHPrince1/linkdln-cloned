@@ -1,0 +1,33 @@
+.parentDiv{
+    display: none;
+   
+}
+
+@media only screen and (max-width:425px) {
+    .parentDiv{
+        display: flex;
+        justify-content: space-evenly;
+        margin: -48px auto;
+        width: 97%;
+    }
+    
+    .imgDiv img{ width: 35px;
+        height: 35px;
+         border-radius: 20px; 
+        
+        
+    }
+    input{
+        width: 240px;
+    height: 20px;
+    border-color: #fff;
+    background-color: rgb(194, 180, 180);
+    outline: #fff;
+    padding: 4px 3px 5px 15px;
+    }
+    .icon{
+        font-size: 40px;
+        height: 35px;
+    }
+}
+
