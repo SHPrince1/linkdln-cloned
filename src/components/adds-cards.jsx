@@ -3,9 +3,9 @@ import Style from "../styles/adds.module.css";
 import Image from "../assets/crop.png";
 
 // react icons
-import { AiOutlineClose, AiFillLike, AiOutlineComment } from "react-icons/ai";
-import { BsThreeDotsVertical, BsFillSendFill } from "react-icons/bs";
-import {BiRepost} from 'react-icons/bi'
+import { AiOutlineClose,  } from "react-icons/ai";
+import { BsThreeDotsVertical } from "react-icons/bs";
+i
 import LikeComment from "../components/likecomment";
 
 const AddsCards = () => {
@@ -14,7 +14,7 @@ const AddsCards = () => {
       <div className={Style.parentDiv}>
         <div className={Style.header}>
           <div className={Style.headerContent}>
-            <img src={Image} />
+            <img src={Image} alt='' />
 
             <div className={Style.headerText}>
               <h4>Software Engineer & Students</h4>

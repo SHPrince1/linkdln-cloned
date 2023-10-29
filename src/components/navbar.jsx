@@ -7,7 +7,7 @@ import ProfilePic from "../assets/crop.png";
 import { AiFillHome, AiFillMessage } from "react-icons/ai";
 import { FaNetworkWired } from "react-icons/fa";
 import { ImBriefcase } from "react-icons/im";
-import { HiOutlineDotsHorizontal } from "react-icons/hi";
+// /import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import {
   MdNotifications,
   MdOutlineApps,
@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className={Style.parentDiv}>
           <div className={Style.imgInput}>
             <div className={Style.imgDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <img src={linkdlnImg} alt="Linkdln Logo" size={10} />
               </a>
             </div>
@@ -33,31 +33,31 @@ const NavBar = () => {
           </div>
           <div className={Style.iconsDiv}>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <AiFillHome className={Style.icon} />
                 <p>Home</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <FaNetworkWired className={Style.icon} />
                 <p>My Network</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <ImBriefcase className={Style.icon} />
                 <p>Jobs</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <AiFillMessage className={Style.icon} />
                 <p>Messaging</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <MdNotifications className={Style.icon} />
                 <p>Notification</p>
               </a>
@@ -73,7 +73,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="">
+              <a href="wwww.lio.com">
                 <MdOutlineApps className={Style.icon} />
 
                 <div className={Style.textIcon}>
@@ -83,7 +83,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="" className={Style.premiumLink}>
+              <a href="wwww.lio.com" className={Style.premiumLink}>
                 Try Premium for NGN 0.00
               </a>
             </div>

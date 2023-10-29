@@ -8,7 +8,7 @@ const MobileTopNav = () => {
     <div>
         <div className={Style.parentDiv}>
             <div className={Style.imgDiv}>
-                <img src={Image} />
+                <img src={Image} alt='' />
             </div>
 
             <input  type='text' placeholder='Search'/>

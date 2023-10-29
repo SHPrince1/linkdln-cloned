@@ -8,7 +8,7 @@ const UsernameFollow = () => {
 
 <div className={Style.nameBox}>
             <div className={Style.imgTextName}>
-                <img src ={Image} />
+                <img src ={Image} alt='' />
                 <div className={Style.nameText}>
             
             <div className={Style.name}>

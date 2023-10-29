@@ -20,7 +20,7 @@ const UserCard = () => {
         </div>
 
         <div className={Style.imgBox}>
-          <img src={Image} />
+          <img src={Image} alt='' />
         </div>
         <div className={Style.comment}>
           <LikeComment />
