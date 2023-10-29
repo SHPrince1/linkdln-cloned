@@ -5,7 +5,7 @@ import Image from "../assets/crop.png";
 // react icons
 import { AiOutlineClose,  } from "react-icons/ai";
 import { BsThreeDotsVertical } from "react-icons/bs";
-i
+
 import LikeComment from "../components/likecomment";
 
 const AddsCards = () => {
