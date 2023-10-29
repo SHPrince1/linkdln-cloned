@@ -91,6 +91,9 @@ const NavBar = () => {
         </div>
       </div>
 
+      
+      {/* mobile navbar */}
+
       <div className={Style.mobileNavGenDiv}>
         <div className={Style.mParentDiv}>
           {/* <div className={Style.imgInput}>
@@ -107,20 +110,20 @@ const NavBar = () => {
 
           {/* <div className={Style.iconsDiv}> */}
           <div className={Style.linkDiv}>
-            <a href="">
+            <a href="/">
               <AiFillHome className={Style.icon} />
               <p>Home</p>
             </a>
           </div>
           <div className={Style.linkDiv}>
-            <a href="">
+            <a href="/">
               <FaNetworkWired className={Style.icon} />
               <p>My Network</p>
             </a>
           </div>
 
           <div className={Style.linkDiv}>
-            <a href="">
+            <a href="/">
              
 
               <MdAddComment className={Style.icon} />
@@ -128,14 +131,14 @@ const NavBar = () => {
             </a>
           </div>
           <div className={Style.linkDiv}>
-            <a href="">
+            <a href="/">
               <MdNotifications className={Style.icon} />
               <p>Notifications</p>
             </a>
           </div>
          
           <div className={Style.linkDiv}>
-            <a href="">
+            <a href="/">
               <ImBriefcase className={Style.icon} />
               <p>Jobs</p>
             </a>
