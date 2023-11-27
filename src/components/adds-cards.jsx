@@ -1,6 +1,7 @@
 import React from "react";
 import Style from "../styles/adds.module.css";
 import Image from "../assets/crop.png";
+import AddsCardHeader from "../components/adds-card-header";
 
 // react icons
 import { AiOutlineClose,  } from "react-icons/ai";
@@ -12,7 +13,7 @@ const AddsCards = () => {
   return (
     <div>
       <div className={Style.parentDiv}>
-        <div className={Style.header}>
+        {/* <div className={Style.header}>
           <div className={Style.headerContent}>
             <img src={Image} alt='' />
 
@@ -27,13 +28,15 @@ const AddsCards = () => {
 
             <AiOutlineClose className={Style.headerIcon} />
           </div>
-        </div>
-        <div className={Style.title}>
+        </div> */}
+
+         <AddsCardHeader />
+        {/* <div className={Style.title}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
             ut ipsam ad adipisci odio necessitatibus{" "}
           </p>
-        </div>
+        </div> */}
 
         <div className={Style.content}>
           <div className={Style.contentText}>

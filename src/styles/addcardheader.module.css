@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerContent{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+.header img{
+    width: 40px;
+    height: 40px;
+}
+
+.headerText{
+    /* border: 1px solid red; */
+    
+    line-height: 0;
+    text-align: left;
+    width: 237px;
+}
+.headerText h4{
+    font-size: 13px !important;
+    font-weight: bolder;
+}
+.headerIcons{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: -30px;
+}
+.headerIcon{
+    font-size: 25px;
+}
