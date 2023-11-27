@@ -1,11 +1,11 @@
 import React from "react";
 import Style from "../styles/adds.module.css";
-import Image from "../assets/crop.png";
+// import Image from "../assets/crop.png";
 import AddsCardHeader from "../components/adds-card-header";
 
 // react icons
-import { AiOutlineClose,  } from "react-icons/ai";
-import { BsThreeDotsVertical } from "react-icons/bs";
+// import { AiOutlineClose,  } from "react-icons/ai";
+// import { BsThreeDotsVertical } from "react-icons/bs";
 
 import LikeComment from "../components/likecomment";
 

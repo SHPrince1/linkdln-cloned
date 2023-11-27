@@ -2,7 +2,7 @@ import React from 'react'
 import Style from '../styles/likecomments.module.css'
 
 // react icons
-import { AiOutlineClose, AiFillLike,AiOutlineComment } from "react-icons/ai";
+import { AiFillLike,AiOutlineComment } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
 import {BiRepost} from 'react-icons/bi'
 const LikeComment = () => {

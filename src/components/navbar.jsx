@@ -64,8 +64,8 @@ const NavBar = () => {
             </div>
 
             <div className={Style.linkDiv}>
-              <a href="">
-                <img src={ProfilePic} className={Style.profilePic} />
+              <a href="www.non">
+                <img src={ProfilePic} className={Style.profilePic} alt='Profile'/>
                 <div className={Style.textIcon}>
                   <p className={Style.profilePicText}>Me</p>
                   <MdOutlineArrowDropDown size={22} />

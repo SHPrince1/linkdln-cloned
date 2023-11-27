@@ -4,7 +4,7 @@ import Style from "../styles/adds.module.css";
 import Image from "../assets/crop.png";
 import LikeComment from '../components/likecomment';
 // react icons
-import { AiOutlineClose,  } from "react-icons/ai";
+// import { AiOutlineClose,  } from "react-icons/ai";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
 
