@@ -10,7 +10,7 @@ const UserNameJob = () => {
                 <div className={Style.nameText}>
             
             <div className={Style.name}>
-              <h4>Hope Akpan </h4> 3rd
+              <h4>Hope Akpan</h4> {''}.3rd
             </div>
             <p>Chemical Engineer</p>
             <p>2d</p>
