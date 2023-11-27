@@ -1,7 +1,7 @@
 import React from 'react';
 import MobileTopNav from '../components/mobile-top-nav';
 import AddsCards from '../components/adds-cards';
-import UserCard from '../components/user-card';
+import UserCard from '../components/user Card/user-card'
 import CompanyCard from '../components/company-card';
 
 const Index = () => {
