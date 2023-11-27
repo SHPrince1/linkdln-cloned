@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Style from "../styles/adds.module.css";
-import Image from "../assets/crop.png";
+import Image from "../assets/webnar.png";
 import LikeComment from '../components/likecomment';
 // react icons
 // import { AiOutlineClose,  } from "react-icons/ai";
