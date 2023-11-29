@@ -167,7 +167,10 @@
     margin-top: 4px;
     display: flex;
     flex-direction: column;
+    line-height: 0;
    }
+   
+
    .mobileInput{
     width: 30px;
    }
