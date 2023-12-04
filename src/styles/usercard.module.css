@@ -3,7 +3,7 @@
     visibility: visible;
     border: 1px solid #707070;
     width: 36%;
-    margin: 0 auto;
+    margin: 14px  auto auto auto;
     /* margin: 20px  auto auto auto; */
 }
 .text p{
