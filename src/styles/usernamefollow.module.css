@@ -1,8 +1,11 @@
 .nameBox {
+  border: 1px solid r#707070;
   display: flex;
   gap: 1px;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  margin: 10px auto auto auto;
 }
 .nameBox img {
   width: 51px;
@@ -40,4 +43,20 @@
   text-align: left;
   margin-top: -14px;
   padding: 4px 2px 2px 18px;
+}
+
+
+
+@media only screen and (max-width:425px) {
+
+.nameBox{
+  /* border: 1px solid red; */
+    display: flex;
+    gap: 1px;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto auto auto;
+
+}
 }
