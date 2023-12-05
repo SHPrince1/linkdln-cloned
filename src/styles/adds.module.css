@@ -1,9 +1,12 @@
 .parentDiv
 {
     visibility: visible;
-    border: 1px solid #707070;
-    width: 36%;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    width: 35%;
     margin: 20px  auto auto auto;
+    border-radius: 10px;
+   
 }
 
 .header{

@@ -12,7 +12,9 @@
 }
 .container{
     position: relative;
-    border: 2px solid #707070;
+    
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
     width: 50%;
     /*margin: -260px auto auto auto;
     */border-radius: 10px;

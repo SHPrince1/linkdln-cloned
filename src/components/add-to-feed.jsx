@@ -1,6 +1,7 @@
 import React from "react";
 import Style from "../../src/styles/add-to-feed.module.css";
 import NameComFollow from "./name-com-follow";
+import { TiInfoLarge } from "react-icons/ti";
 
 const AddtToFeed = () => {
   return (
@@ -8,7 +9,7 @@ const AddtToFeed = () => {
       <div className={Style.container}>
         <div className={Style.addIcon}>
           <p>ADD TO YOUR FEED</p>
-          <p>Icon</p>
+          < TiInfoLarge  />
         </div>
         <div>
           <NameComFollow />
@@ -20,7 +21,7 @@ const AddtToFeed = () => {
           <NameComFollow />
         </div>
         <div>
-          <p>View All recomendations </p>
+          <a href="ioi">View All recomendations </a>
         </div>
        
       </div>
