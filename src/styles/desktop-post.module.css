@@ -1,5 +1,5 @@
 .parentContainer{
-    width: 68%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -7,20 +7,21 @@
     /* border: 1px solid red; */
 }
 .addFeedDiv{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     width: 23%;
 }
 .container{
+    position: relative;
     border: 2px solid #707070;
     width: 50%;
-    /* margin: -260px auto auto auto; */
-    border-radius: 10px;
+    /*margin: -260px auto auto auto;
+    */border-radius: 10px;
     /*box-shadow: 0 10 10 #000;
-    */
-    -webkit-border-radius: 10px;
+    */-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .inputImage{
     /* position: relative; */
