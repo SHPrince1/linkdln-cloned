@@ -1,0 +1,48 @@
+.container{
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    position: absolute;
+    width: 16%;
+
+}
+.bgImageDiv{
+    /* position: relative; */
+}
+.bgImageDiv img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+}
+.ImageNameJob{
+    /* border: 1px solid #000; */
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.ImageNameJob img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px auto;
+    width: 50px;
+    border-radius:25px ;
+    /*position: absolute;
+    *//*margin: -40px 104px;
+    */-webkit-border-radius:20px ;
+    -moz-border-radius:25px ;
+    -ms-border-radius:25px ;
+    -o-border-radius:25px ;
+    -webkit-border-radius:25px ;
+}
+.NameOcuppation{
+    line-height: 1;
+    /* border: 1px solid red; */
+    /* height: 10px; */
+}
+.proView{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
