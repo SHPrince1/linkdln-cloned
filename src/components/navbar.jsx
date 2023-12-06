@@ -116,7 +116,7 @@ const NavBar = () => {
             </a>
           </div>
           <div className={Style.linkDiv}>
-            <a href="/">
+            <a href="/network">
               <FaNetworkWired className={Style.icon} />
               <p>My Network</p>
             </a>

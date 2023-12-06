@@ -3,7 +3,11 @@
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     position: absolute;
     width: 16%;
-
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 /* .bgImageDiv{
     position: relative;
@@ -44,6 +48,8 @@
     /* height: 10px; */
 }
 .proViewBox{
+    border: 1px solid rgba(0,0,0,.2);
+    /* box-shadow: 0 2px 3px rgba(0,0,0,.2); */
     /* border: 1px solid blue; */
     line-height: 0;
     display: flex;
@@ -53,6 +59,7 @@
     /* height: 40px; */
 }
 .proView{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,4 +75,24 @@
 .proView h6{
     color: blue;
     font-weight: bold;
+}
+.premiumBox{
+    border: 1px solid rgba(0,0,0,.2);
+    /* box-shadow: 0 24x 3px rgba(0,0,0,.2); */
+    /* line-height: 0; */
+    margin-top: -2px;
+
+}
+.premiumBox p{
+    font-size: 13px;
+}
+.premiumBox h6{
+    margin-top: -10px;
+}
+.iconBox{
+    border: 1px solid rgba(0,0,0,.2);
+    display: flex;
+    gap: 10px;
+    padding: 0 18px;
+    margin-top: -2px;
 }

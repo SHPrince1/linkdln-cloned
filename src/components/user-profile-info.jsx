@@ -30,13 +30,13 @@ const UserProfileInfo = () => {
             <h6>1000</h6>
           </div>
         </div>
-        <hr />
-        <div>
+        {/* <hr /> */}
+        <div className={Style.premiumBox}>
           <p>Get hired 2.6x faster with premium</p>
           <h6>Try premium for NGN0</h6>
         </div>
-        <hr />
-        <div>
+        {/* <hr /> */}
+        <div className={Style.iconBox}> 
           <p>Icon</p>
           <p>My item</p>
         </div>
