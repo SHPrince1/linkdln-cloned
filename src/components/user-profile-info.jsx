@@ -9,16 +9,18 @@ const UserProfileInfo = () => {
         <div className={Style.bgImageDiv}>
           <img src={BGImage} alt="" />
         </div>
+        
         <div className={Style.ImageNameJob}>
           <img src={BGImage} alt="" />
           <div className={Style.NameOcuppation}>
             <h5>Prince H Sylvanus</h5>
-            <p>Software Engineer | Computer Engineer | Javascript </p>
+            <p>Software Engineer | Computer Engineer | Javascript  </p>
           </div>
 
           <hr />
         </div>
-        <div>
+        {/* <hr /> */}
+        <div className={Style.proViewBox}>
           <div className={Style.proView}>
             <p>Profile Viewers</p>
             <h6>1000</h6>

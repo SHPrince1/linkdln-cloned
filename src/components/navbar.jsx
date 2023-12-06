@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className={Style.parentDiv}>
           <div className={Style.imgInput}>
             <div className={Style.imgDiv}>
-              <a href="wwww.lio.com">
+              <a href="/">
                 <img src={linkdlnImg} alt="Linkdln Logo" size={10} />
               </a>
             </div>
@@ -33,31 +33,31 @@ const NavBar = () => {
           </div>
           <div className={Style.iconsDiv}>
             <div className={Style.linkDiv}>
-              <a href="wwww.lio.com">
+              <a href="/">
                 <AiFillHome className={Style.icon} />
                 <p>Home</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="wwww.lio.com">
+              <a href="/network">
                 <FaNetworkWired className={Style.icon} />
                 <p>My Network</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="wwww.lio.com">
+              <a href="/jobs">
                 <ImBriefcase className={Style.icon} />
                 <p>Jobs</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="wwww.lio.com">
+              <a href="/message">
                 <AiFillMessage className={Style.icon} />
                 <p>Messaging</p>
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="wwww.lio.com">
+              <a href="/notifications">
                 <MdNotifications className={Style.icon} />
                 <p>Notification</p>
               </a>

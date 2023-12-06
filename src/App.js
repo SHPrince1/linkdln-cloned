@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './pages/index';
+import Network from './pages/network';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <NavBar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          {/* <Route path="/skills" exact element={<About />} />
-          <Route path="/project" element={<Project />} /> */}
+          <Route path="/network" exact element={<Network />} />
+          {/* <Route path="/project" element={<Project />} />  */}
         </Routes>
       </Router>
     

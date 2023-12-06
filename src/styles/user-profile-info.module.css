@@ -5,9 +5,9 @@
     width: 16%;
 
 }
-.bgImageDiv{
-    /* position: relative; */
-}
+/* .bgImageDiv{
+    position: relative;
+} */
 .bgImageDiv img{
     /* border: 1px solid red; */
     width: 100%;
@@ -37,12 +37,34 @@
 }
 .NameOcuppation{
     line-height: 1;
+    font-size: 14px;
+    padding: 5px 2px 5px 2px;
+    margin: 1px auto;
     /* border: 1px solid red; */
     /* height: 10px; */
+}
+.proViewBox{
+    /* border: 1px solid blue; */
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    /* height: 40px; */
 }
 .proView{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
-    margin: 0 auto;
+    height: 40px;
+    margin: -6px auto;
+    font-size: 14px;
+    color: #707070;
+    font-style: poppins;
+    line-height: 0;
+    /* border: 1px solid red; */
+}
+.proView h6{
+    color: blue;
+    font-weight: bold;
 }
