@@ -1,6 +1,10 @@
 import React from "react";
 import Style from "../styles/user-profile-info.module.css";
 import BGImage from "../assets/crop.png";
+import RecentCard from "./destop/recent-card";
+
+import { BiSolidLabel } from "react-icons/bi";
+import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 
 const UserProfileInfo = () => {
   return (
@@ -9,12 +13,12 @@ const UserProfileInfo = () => {
         <div className={Style.bgImageDiv}>
           <img src={BGImage} alt="" />
         </div>
-        
+
         <div className={Style.ImageNameJob}>
           <img src={BGImage} alt="" />
           <div className={Style.NameOcuppation}>
             <h5>Prince H Sylvanus</h5>
-            <p>Software Engineer | Computer Engineer | Javascript  </p>
+            <p>Software Engineer | Computer Engineer | Javascript </p>
           </div>
 
           <hr />
@@ -33,14 +37,18 @@ const UserProfileInfo = () => {
         {/* <hr /> */}
         <div className={Style.premiumBox}>
           <p>Get hired 2.6x faster with premium</p>
-          <h6>Try premium for NGN0</h6>
+          <h6><MdOutlineCheckBoxOutlineBlank /> Try premium for NGN0</h6>
         </div>
         {/* <hr /> */}
-        <div className={Style.iconBox}> 
-          <p>Icon</p>
+        <div className={Style.iconBox}>
+        <BiSolidLabel />
           <p>My item</p>
         </div>
+       
       </div>
+      <div className={Style.recentDiv}>
+          <RecentCard />
+        </div>
     </>
   );
 };

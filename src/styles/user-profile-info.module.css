@@ -1,3 +1,4 @@
+
 .container{
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
@@ -47,6 +48,9 @@
     /* border: 1px solid red; */
     /* height: 10px; */
 }
+.NameOcuppation p{
+    font-size: 12px;
+}
 .proViewBox{
     border: 1px solid rgba(0,0,0,.2);
     /* box-shadow: 0 2px 3px rgba(0,0,0,.2); */
@@ -78,13 +82,20 @@
 }
 .premiumBox{
     border: 1px solid rgba(0,0,0,.2);
-    /* box-shadow: 0 24x 3px rgba(0,0,0,.2); */
-    /* line-height: 0; */
-    margin-top: -2px;
-
+    /*line-height: 0;
+    */margin-top: -2px;
+    text-align: left;
+    width: 94%;
+    border-radius:15px ;
+    /*margin: -2px auto;
+    */padding: 0 6px;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
 }
 .premiumBox p{
-    font-size: 13px;
+    font-size: 12px;
 }
 .premiumBox h6{
     margin-top: -10px;
@@ -92,7 +103,23 @@
 .iconBox{
     border: 1px solid rgba(0,0,0,.2);
     display: flex;
+    align-items: center;
     gap: 10px;
+    border-radius: 15px;
     padding: 0 18px;
+    font-size: 14px;
     margin-top: -2px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.recentDiv{
+    /* border: 1px solid rgba(0,0,0,.2); */
+    /* box-shadow: 0 2px 3px rgba(0,0,0,.2); */
+    /* position: absolute; */
+    /* background-color: red; */
+    /* width: 46%; */
+    /* height: fit-content; */
+    /* border-radius: 16px; */
 }
