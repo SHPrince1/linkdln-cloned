@@ -29,3 +29,8 @@
     width: 1000px;
     flex-direction: column;
 }
+.PremiumAddsCardContainer{
+    margin: 390px auto;
+    width:16%;
+    position: absolute;
+}

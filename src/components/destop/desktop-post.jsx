@@ -14,7 +14,7 @@ const DesktopPost = () => {
       <div className={Style.parentContainer}>
         <div className={Style.addFeedDiv}>
           <UserProfileInfo />
-          {/* <UserProfileInfo /> */}
+         
         </div>
      
        

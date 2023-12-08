@@ -1,0 +1,46 @@
+.container {
+  /*border: 1px solid red;
+    */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  padding: 12px 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.NameAdds p{
+    font-size: 12px;
+    font-family: poppins;
+}
+.ImgDiv {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 18px;
+}
+.ImgDiv img {
+  width: 70px;
+  gap: 10px;
+}
+.Pimage{
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.btnDiv button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid blue;
+  background-color: #fff;
+  outline-color: blue;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}

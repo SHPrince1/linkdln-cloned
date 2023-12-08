@@ -2,6 +2,7 @@ import React from "react";
 import Style from "../../src/styles/add-to-feed.module.css";
 import NameComFollow from "./name-com-follow";
 import { TiInfoLarge } from "react-icons/ti";
+import PremiumAddsCard from "./destop/premium-adds-card";
 
 const AddtToFeed = () => {
   return (
@@ -24,6 +25,10 @@ const AddtToFeed = () => {
           <a href="ioi">View All recomendations </a>
         </div>
        
+      </div>
+      <div className={Style.PremiumAddsCardContainer} >
+        
+        <PremiumAddsCard />
       </div>
     </>
   );
