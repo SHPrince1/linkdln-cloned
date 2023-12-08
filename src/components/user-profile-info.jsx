@@ -37,7 +37,7 @@ const UserProfileInfo = () => {
         {/* <hr /> */}
         <div className={Style.premiumBox}>
           <p>Get hired 2.6x faster with premium</p>
-          <h6><MdOutlineCheckBoxOutlineBlank /> Try premium for NGN0</h6>
+          <h6><MdOutlineCheckBoxOutlineBlank color="gold"  size={18} /> Try  for NGN0</h6>
         </div>
         {/* <hr /> */}
         <div className={Style.iconBox}>
