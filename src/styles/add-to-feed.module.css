@@ -3,7 +3,8 @@
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     position: absolute;
-    width: 14.5%;
+    width: 15%;
+    min-width: fit-content;
     height: auto;
     padding: 0 10px 12px 10px;
     border-radius: 10px;
