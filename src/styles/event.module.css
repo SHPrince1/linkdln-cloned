@@ -1,0 +1,32 @@
+
+.container{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:425px) {
+    .cardContainer{
+        /* border: 1px solid red; */
+        margin-top: 80px;
+    }
+    img{
+        height: 300px;
+        /* margin-top: 80px; */
+    }
+    .textBtn{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+    }
+    .textBox{
+        /* border: 1px solid red; */
+        line-height: 0;
+        text-align: left;
+    }
+    .btnBox button{
+        width: 55px;
+        color: blue;
+    
+    }
+
+}
+

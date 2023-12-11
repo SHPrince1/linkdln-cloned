@@ -3,6 +3,8 @@
     flex-wrap: wrap;
    height: 58vh;
    flex-direction: row;
+   gap: 6px;
+   /* margin-top: -10px; */
    /* flex: 1 1 50%; */
 
 }

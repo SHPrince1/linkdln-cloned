@@ -2,6 +2,7 @@ import React from "react";
 import AcceptRequest from "../components/network Components/accept-request";
 import ConnectSuggest from "../components/network Components/connect-suggest";
 import Style from '../styles/network.module.css'
+import OnlineEvents from "../components/network Components/online-events";
 const Network = () => {
   return (
     <div>
@@ -13,8 +14,11 @@ const Network = () => {
         <ConnectSuggest />
         <ConnectSuggest />
         <ConnectSuggest />
-        <ConnectSuggest />
-        <ConnectSuggest />
+        
+      </div>
+      <div>
+        <OnlineEvents />
+        <OnlineEvents />
       </div>
     </div>
   );
