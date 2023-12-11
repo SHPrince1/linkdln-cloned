@@ -1,9 +1,11 @@
 .containerCard{
-    border: 1px solid red;
-    width: 50%;
+    border: 1px solid rgba(0,0,0,.2);;
+    width: 45%;
+    margin: 0 auto;
+    padding:8px;
 }
 .imgbox{
-    position: relative;
+    /* position: relative; */
 }
 /* .imgBackground{
     width: 100%;
@@ -23,4 +25,23 @@
     -moz-border-radius: 45px;
     -ms-border-radius: 45px;
     -o-border-radius: 45px;
+}
+.nameProfession{
+    line-height: 0;
+}
+.mutualConnect p{
+    font-size: 12px;
+}
+button{
+    border: 1px solid blue;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }

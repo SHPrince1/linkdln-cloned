@@ -13,12 +13,15 @@ const ConnectSuggest = () => {
             <img src={Hope} alt="" />
           </div>
         </div>
-        <div>
+        <div className={Style.nameProfession}>
           <h4>Hope Akpan</h4>
           <p>Chemical Engineer</p>
         </div>
-        <div>
+        <div className={Style.mutualConnect}>
           <p>1 Mutual Connections</p>
+        </div>
+        <div>
+            <button>Connect</button>
         </div>
       </div>
     </>

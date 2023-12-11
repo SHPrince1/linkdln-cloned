@@ -1,0 +1,8 @@
+.conntectSuggest{
+    display: flex;
+    flex-wrap: wrap;
+   height: 58vh;
+   flex-direction: row;
+   /* flex: 1 1 50%; */
+
+}
