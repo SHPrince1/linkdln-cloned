@@ -1,0 +1,37 @@
+.container{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:425px) {
+    .container{
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        padding: 10px;
+        height: 100px;
+        line-height: 10px;
+        border: 1px solid red;
+
+    }
+    .imgText{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .imgBox img{
+        border-radius: 30px;
+        width: 60px;
+        height: 60px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+
+    .acceptRejectBox{
+        display: flex;
+        gap: 20px;
+    }
+}
