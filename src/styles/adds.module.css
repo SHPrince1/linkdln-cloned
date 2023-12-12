@@ -55,6 +55,7 @@
 }
 .imgBox img{
     width: 100%;
+    /* height: 400px; */
 }
 .nameApplySingn{
     display: flex;
