@@ -17,7 +17,7 @@
     }
     .imgText{
         display: flex;
-        gap: 10px;
+        gap: 2px;
         align-items: center;
     }
     .imgBox img{
@@ -33,7 +33,7 @@
 .NameProBox{
     /* border: 1px solid red; */
     height: 100px;
-    line-height: 0.5;
+    line-height: 0.3;
 }
 .NameProBox p{
     font-size: 16px;
