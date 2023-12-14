@@ -11,7 +11,7 @@ const FollowCareer = () => {
           <img src={Hope} alt="" className={Style.BGProfile} />
           <div className={Style.imgBtnDiv}>
             <div className={Style.imgDiv}>
-              <img src={Hope} alt="" className={Style.profile} />
+              <img src={Hope} alt="" className={Style.profile}/>
             </div>
 
             <div className={Style.btnDiv}>
@@ -25,7 +25,7 @@ const FollowCareer = () => {
           <p>we will be talking about career and personal development </p>
           {/* <p>Talk about Business, inovation, Strategy</p> */}
           <div className={Style.followedDiv}>
-            <img src={Hope} className={Style.followedImage} />
+            <img src={Hope} className={Style.followedImage} alt="" />
             <span>Jobs in Nigeria</span>
           </div>
         </div>

@@ -27,7 +27,7 @@ const TrendingPeople = () => {
           <p>Full Stack developer, Chemical Engineer, </p>
           <p>Talk about Business, inovation, Strategy</p>
           <div className={Style.followedDiv}>
-            <img src={Hope} className={Style.followedImage} />
+            <img src={Hope} className={Style.followedImage} alt="" />
             <span>Followed by Samuel Eniola and 50 others</span>
           </div>
         </div>
