@@ -10,17 +10,15 @@ const TrendingPeople = () => {
         <div>
           <img src={Hope} alt="" className={Style.BGProfile} />
           <div className={Style.imgBtnDiv}>
-          <div className={Style.imgDiv}>
-            <img src={Hope} alt="" className={Style.profile} />
-          </div>
+            <div className={Style.imgDiv}>
+              <img src={Hope} alt="" className={Style.profile} />
+            </div>
 
-          <div className={Style.btnDiv}>
-            <button>Follow</button>
+            <div className={Style.btnDiv}>
+              <button>Follow</button>
+            </div>
           </div>
         </div>
-        </div>
-
-       
 
         <div className={Style.nameStackDiv}>
           <h5>Hope Akpan</h5>
@@ -28,7 +26,9 @@ const TrendingPeople = () => {
           <p>Talk about Business, inovation, Strategy</p>
           <div className={Style.followedDiv}>
             <img src={Hope} className={Style.followedImage} alt="" />
-            <span>Followed by Samuel Eniola and 50 others</span>
+            <span>
+              <p>Followed by Samuel Eniola and 50 others</p>
+            </span>
           </div>
         </div>
       </div>

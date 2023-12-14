@@ -1,19 +1,21 @@
 .container {
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     border:  0 2px 3px rgba(0,0,0,.2);
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
   margin-top:0px;
   width: 96%;
   height: 380px;
   margin-left: 8px;
+  margin-top: -13px;
   /* display: flex; */
   /* margin: 0 auto; */
   /* position: absolute; */
 }
 .container h4{
-    text-align: left;
-    width: 99%;
+   text-align: left;
+    width: 90%;
     margin: 17px auto;
+    font-size: 12px;
 }
 .imgBtnDiv {
     /* border: 1px solid blue; */
@@ -64,8 +66,8 @@
 }
 .followedImage{
     /* border: 1px solid red; */
-    width: 8%;
-    height: 28px;
+    width: 7%;
+    height: 20px;
     /* border-radius: 20px; */
     align-items: center;
     

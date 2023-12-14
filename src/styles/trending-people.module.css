@@ -9,9 +9,10 @@
   /* position: absolute; */
 }
 .container h4{
-    text-align: left;
-    width: 99%;
-    margin: 17px auto;
+  text-align: left;
+  width: 90%;
+  margin: 17px auto;
+  font-size: 12px;
 }
 .imgBtnDiv {
     /* border: 1px solid blue; */
@@ -59,6 +60,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.followedDiv p{
+  font-size: 10px;
 }
 .followedImage{
     /* border: 1px solid red; */
