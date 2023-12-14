@@ -1,0 +1,72 @@
+.container {
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    border:  0 2px 3px rgba(0,0,0,.2);
+    border: 1px solid yellow;
+  margin-top:0px;
+  width: 96%;
+  height: 380px;
+  margin-left: 8px;
+  /* display: flex; */
+  /* margin: 0 auto; */
+  /* position: absolute; */
+}
+.container h4{
+    text-align: left;
+    width: 99%;
+    margin: 17px auto;
+}
+.imgBtnDiv {
+    /* border: 1px solid blue; */
+    margin: -55px auto;
+    width: 95%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px; */
+}
+.imgDiv{
+    position: relative;
+}
+.BGProfile{
+    /* position: absolute; */
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+}
+.imgDiv .profile {
+  width: 95px;
+  height: 95px;
+  /* border-radius: 50px; */
+  
+}
+.btnDiv {
+  display: flex;
+  margin-top: 40px;
+  width: 16%;
+  justify-content: right;
+  padding: 20px;
+}
+.nameStackDiv{
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 85%;
+    margin: 50px auto;
+    /* line-height: 0.1; */
+    text-align: left;
+    padding: 0 20px;
+}
+.nameStackDiv p{
+    margin-top: -20px;
+}
+.followedDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.followedImage{
+    /* border: 1px solid red; */
+    width: 8%;
+    height: 28px;
+    /* border-radius: 20px; */
+    align-items: center;
+    
+}

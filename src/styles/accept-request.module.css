@@ -12,6 +12,8 @@
         padding: 10px;
         height: 100px;
         line-height: 10px;
+        width: 92%;
+        margin: 0 auto;
         border: 1px solid #707070;
 
     }
@@ -59,17 +61,17 @@
     .circle{
         border: 1px solid blue;
         width: 40px;
-        border-radius: 40%;
-        -webkit-border-radius: 40%;
-        -moz-border-radius: 40%;
-        -ms-border-radius: 40%;
-        -o-border-radius: 40%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
     .circleX{
         border: 1px solid #707070;
         width: 40px;
         border-radius: 40%;
-        -webkit-border-radius: 40%;
+        -webkit-border-radius: 50%;
         -moz-border-radius: 40%;
         -ms-border-radius: 40%;
         -o-border-radius: 40%;

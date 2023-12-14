@@ -16,7 +16,9 @@
     .textBtn{
         display: flex;
         justify-content: space-between;
-        padding: 8px;
+        padding: 8;
+        width: 86%;
+        margin: 10px auto;
     }
     .textBox{
         /* border: 1px solid red; */
