@@ -5,7 +5,7 @@ import Style from "../styles/network.module.css";
 import OnlineEvents from "../components/network Components/online-events";
 import TrendingPeople from "../components/network Components/trending-people";
 import FollowCareer from "../components/network Components/follow-career";
-import RecentCard from "../components/destop/recent-card";
+// import RecentCard from "../components/destop/recent-card";
 const Network = () => {
   return (
     <div className={Style.container}>

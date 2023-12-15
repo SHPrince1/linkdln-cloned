@@ -4,7 +4,7 @@ import { GrFormCheckmark } from "react-icons/gr";
 import { HiXMark } from "react-icons/hi2";
 
 import Image from "../../assets/hope.jpg";
-import RecentCard from "../destop/recent-card";
+// import RecentCard from "../destop/recent-card";
 const AcceptRequest = () => {
   return (
     <>
