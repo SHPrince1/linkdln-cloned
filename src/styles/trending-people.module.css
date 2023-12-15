@@ -3,7 +3,7 @@
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     border:  0 2px 3px rgba(0,0,0,.2);
   margin-top:0px;
-  width: 13%;
+  width: 32%;
   margin-left: 8px;
   /* display: flex; */
   /* margin: 0 auto; */
@@ -51,11 +51,15 @@
 .nameStackDiv{
     /* border: 1px solid black; */
     height: 120px;
-    width: 85%;
+    width: 100%;
     margin: 50px auto;
-    line-height: 0.1;
+    line-height: -0.5;
     text-align: left;
-    padding: 0 20px;
+    height: 130px;
+    padding: 0 8px;
+}
+.nameStackDiv p{
+  font-size: 14px;
 }
 .followedDiv{
     display: flex;
@@ -67,8 +71,8 @@
 }
 .followedImage{
     /* border: 1px solid red; */
-    width: 8%;
-    height: 25px;
+    width: 10%;
+    height: 27px;
     border-radius: 20px;
     align-items: center;
     -webkit-border-radius: 20px;
@@ -89,4 +93,17 @@
     /* margin: 0 auto; */
     /* position: absolute; */
   }
+
+  .followedImage{
+    /* border: 1px solid red; */
+    width: 8%;
+    height: 32px;
+    border-radius: 20px;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
+}
+

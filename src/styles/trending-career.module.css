@@ -1,22 +1,19 @@
 .container {
-  visibility: hidden;
+  visibility: visible;
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     border:  0 2px 3px rgba(0,0,0,.2);
-    /* border: 1px solid yellow; */
   margin-top:0px;
-  width: 96%;
-  height: 380px;
+  width: 32%;
   margin-left: 8px;
-  margin-top: -13px;
   /* display: flex; */
   /* margin: 0 auto; */
   /* position: absolute; */
 }
 .container h4{
-   text-align: left;
-    width: 90%;
-    margin: 17px auto;
-    font-size: 12px;
+  text-align: left;
+  width: 90%;
+  margin: 17px auto;
+  font-size: 12px;
 }
 .imgBtnDiv {
     /* border: 1px solid blue; */
@@ -38,7 +35,6 @@
 .imgDiv .profile {
   width: 95px;
   height: 95px;
-  /* border-radius: 50px; */
   
 }
 .btnDiv {
@@ -51,25 +47,59 @@
 .nameStackDiv{
     /* border: 1px solid black; */
     height: 120px;
-    width: 85%;
+    width: 100%;
     margin: 50px auto;
-    /* line-height: 0.1; */
+    line-height: -0.5;
     text-align: left;
-    padding: 0 20px;
+    height: 130px;
+    padding: 0 8px;
 }
 .nameStackDiv p{
-    margin-top: -20px;
+  font-size: 14px;
 }
 .followedDiv{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.followedDiv p{
+  font-size: 10px;
+}
 .followedImage{
     /* border: 1px solid red; */
-    width: 7%;
-    height: 20px;
-    /* border-radius: 20px; */
+    width: 10%;
+    height: 27px;
+    border-radius: 20px;
     align-items: center;
-    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
+
+@media only screen and (max-width:425px) {
+  .container {
+    visibility: visible;
+      box-shadow: 0 2px 3px rgba(0,0,0,.2);
+      border:  0 2px 3px rgba(0,0,0,.2);
+    margin-top:0px;
+    width: 96%;
+    margin-left: 8px;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* position: absolute; */
+  }
+
+  .followedImage{
+    /* border: 1px solid red; */
+    width: 8%;
+    height: 32px;
+    border-radius: 20px;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+}
+

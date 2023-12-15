@@ -5,37 +5,59 @@ import Style from "../styles/network.module.css";
 import OnlineEvents from "../components/network Components/online-events";
 import TrendingPeople from "../components/network Components/trending-people";
 import FollowCareer from "../components/network Components/follow-career";
+import RecentCard from "../components/destop/recent-card";
 const Network = () => {
   return (
     <div className={Style.container}>
-      <AcceptRequest />
-      
-      <AcceptRequest />
-      <AcceptRequest />
-      <div className={Style.conntectSuggest}>
-        <ConnectSuggest />
-        <ConnectSuggest />
-        <ConnectSuggest />
-        <ConnectSuggest />
-        <ConnectSuggest />
-        {/* <ConnectSuggest />
-        <ConnectSuggest /> */}
-        {/* <ConnectSuggest /> */}
-       
-      </div>
-      <div className={Style.onlineEventsContainer}>
-        <OnlineEvents />
-        <OnlineEvents />
-        <OnlineEvents />
-        <OnlineEvents />
-        <OnlineEvents />
-        <OnlineEvents />
-      </div>
+      {/* <div className={Style.recentsCard}>
+        <RecentCard />
+        <RecentCard />
+      </div> */}
       <div>
-        <TrendingPeople />
-      </div>
-      <div>
-        <FollowCareer />
+        <div>
+          <AcceptRequest />
+
+          <AcceptRequest />
+          <AcceptRequest />
+        </div>
+
+        <div className={Style.conntectSuggest}>
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+          <ConnectSuggest />
+        </div>
+        <div className={Style.onlineEventsContainer}>
+          <OnlineEvents />
+          <OnlineEvents />
+          <OnlineEvents />
+          <OnlineEvents />
+          <OnlineEvents />
+          <OnlineEvents />
+        </div>
+        <div className={Style.TrendingPeopleContainer}>
+          <TrendingPeople />
+          <TrendingPeople />
+          <TrendingPeople />
+          <TrendingPeople />
+          <TrendingPeople />
+          <TrendingPeople />
+        </div>
+        <div className={Style.TrendingCareerContainer}>
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+          <FollowCareer />
+        </div>
       </div>
     </div>
   );

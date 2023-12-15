@@ -4,10 +4,12 @@ import { GrFormCheckmark } from "react-icons/gr";
 import { HiXMark } from "react-icons/hi2";
 
 import Image from "../../assets/hope.jpg";
+import RecentCard from "../destop/recent-card";
 const AcceptRequest = () => {
   return (
     <>
       <div className={Style.container}>
+        
         <div className={Style.imgText}>
           <div className={Style.imgBox}>
             <img src={Image} alt="" />

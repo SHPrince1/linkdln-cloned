@@ -6,7 +6,7 @@ const FollowCareer = () => {
   return (
     <>
       <div className={Style.container}>
-        <h4>People who follow job vancancies in Nigeria also follow</h4>
+        {/* <h4>People who follow job vancancies in Nigeria also follow</h4> */}
         <div>
           <img src={Hope} alt="" className={Style.BGProfile} />
           <div className={Style.imgBtnDiv}>

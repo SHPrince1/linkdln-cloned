@@ -6,7 +6,7 @@ const TrendingPeople = () => {
   return (
     <>
       <div className={Style.container}>
-        <h4>Trending people in your network</h4>
+        {/* <h4>Trending people in your network</h4> */}
         <div>
           <img src={Hope} alt="" className={Style.BGProfile} />
           <div className={Style.imgBtnDiv}>
