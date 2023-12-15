@@ -1,13 +1,31 @@
 
-.container{
-    display: none;
-    /* visibility: hidden; */
+
+.cardContainer{
+    /* border: 1px solid red; */
+    width: 32%;
+    margin: 0 auto;
+    /* margin-top: 80px; */
 }
+
+
+.imgBox img{
+    width: 100%;
+    /* height: 180px; */
+}
+.textBox{
+    /* border: 1px solid red; */
+    width: 90%;
+    /* padding: 4px; */
+
+    text-align: left;
+}
+
 
 @media only screen and (max-width:425px) {
     .cardContainer{
         /* border: 1px solid red; */
         margin-top: 80px;
+        width: 100%;
     }
     img{
         /* height: 300px; */

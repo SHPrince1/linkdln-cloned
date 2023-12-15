@@ -1,7 +1,80 @@
 .container{
-    visibility: hidden;
-}
+    display: flex;
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items:center;
 
+}
+.imgText{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.imgBox img{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin-top: -8px;
+    
+}
+.acceptRejectBox{
+    display: flex;
+    gap: 20px;
+    margin-top: -40px;
+    /* font-size: 30px; */
+}
+.circle{
+    border: 1px solid blue;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    
+}
+.circleX{
+    border: 1px solid #707070;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.NameProBox{
+   height: 140px;
+    line-height: 0.9;
+    text-align: left;
+}
+/* .NameProBox p{
+    font-size: 13px;
+    color: #707070;
+    max-width: 100%;
+    white-space:nowrap;
+    text-transform: ellipsis;
+} */
+.NameProBoxP{
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: #707070;
+    
+    max-width: 380px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.mutualConnection p {
+    font-size: 12px;
+    color: #707070;
+}
+.postDuration p{
+    font-size: 13px;
+    font-weight: bold;
+
+}
 @media only screen and (max-width:425px) {
     .container{
         visibility: visible;
@@ -34,17 +107,25 @@
 }
 .NameProBox{
     /* border: 1px solid red; */
-    height: 100px;
-    line-height: 0.5;
+    height: 128px;
+    line-height: 0.8;
 }
 .NameProBox p{
     font-size: 13px;
     color: #707070;
-    max-width: 100%;
+    max-width: 100px;
+
+}
+.NameProBoxP{
+    font-size: 13px;
+    color: #707070;
+    max-width: 210px;
+   
 }
 .mutualConnection p {
     font-size: 12px;
     color: #707070;
+    max-width: 300px;
 }
 .postDuration p{
     font-size: 13px;
@@ -61,6 +142,7 @@
     .circle{
         border: 1px solid blue;
         width: 40px;
+        height: 40px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -70,6 +152,7 @@
     .circleX{
         border: 1px solid #707070;
         width: 40px;
+        height: 40px;
         border-radius: 40%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 40%;

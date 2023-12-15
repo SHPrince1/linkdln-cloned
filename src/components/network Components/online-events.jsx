@@ -1,11 +1,12 @@
 import React from "react";
 import Style from "../../styles/event.module.css";
 import Image from "../../assets/webnar.png";
+
 const OnlineEvents = () => {
   return (
     <>
       <div className={Style.cardContainer}>
-        <div>
+        <div className={Style.imgBox}>
           <img src={Image} alt="" />
         </div>
         <div className={Style.textBtn}>

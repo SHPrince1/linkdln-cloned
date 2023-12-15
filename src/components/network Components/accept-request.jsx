@@ -16,7 +16,7 @@ const AcceptRequest = () => {
           <div className={Style.NameProBox}>
             <div>
               <h4>Hope Akpan</h4>
-              <p>I am a Chemical Engineer</p>
+              <p  className={Style.NameProBoxP}>I am a Chemical Engineer, with over 2 years of experience, creating long lasting solution and outstanding  providi jdjd creating long lasting solution and outstanding  providi jdjd</p>
             </div>
             <div className={Style.mutualConnection}>
               <p>7 mutual connections</p>
@@ -28,7 +28,7 @@ const AcceptRequest = () => {
         </div>
         <div className={Style.acceptRejectBox}>
           <div className={Style.circleX}>
-          <HiXMark  size={40}/>
+          <HiXMark  size={40} />
          
           </div>
           <div className={Style.circle}>

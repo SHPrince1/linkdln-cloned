@@ -1,8 +1,9 @@
 .container {
+  visibility: visible;
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     border:  0 2px 3px rgba(0,0,0,.2);
   margin-top:0px;
-  width: 96%;
+  width: 13%;
   margin-left: 8px;
   /* display: flex; */
   /* margin: 0 auto; */
@@ -74,4 +75,18 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+@media only screen and (max-width:425px) {
+  .container {
+    visibility: visible;
+      box-shadow: 0 2px 3px rgba(0,0,0,.2);
+      border:  0 2px 3px rgba(0,0,0,.2);
+    margin-top:0px;
+    width: 96%;
+    margin-left: 8px;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* position: absolute; */
+  }
 }
