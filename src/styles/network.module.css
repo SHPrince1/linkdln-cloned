@@ -3,7 +3,7 @@
 }
 .recentsCard{
   /* margin-top: -250px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .conntectSuggest {
@@ -52,7 +52,10 @@
 
 @media only screen and (max-width: 425px) {
   .container {
-    margin-top: -30 px;
+    margin-top: -20px;
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: 0 auto;
   }
 
   .conntectSuggest {
@@ -60,7 +63,7 @@
     height: auto;
   }
   .onlineEventsContainer {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 98%;
     height: auto;
     margin: 0 auto;

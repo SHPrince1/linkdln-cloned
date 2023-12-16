@@ -24,7 +24,7 @@
 @media only screen and (max-width:425px) {
     .cardContainer{
         /* border: 1px solid red; */
-        margin-top: 80px;
+        margin-top: 10px;
         width: 100%;
     }
     img{
@@ -40,8 +40,9 @@
     }
     .textBox{
         /* border: 1px solid red; */
-        line-height: 0;
+        line-height: 1;
         text-align: left;
+        margin-top: -10px;
     }
     .btnBox button{
         width: 55px;
