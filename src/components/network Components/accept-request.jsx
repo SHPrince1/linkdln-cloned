@@ -9,6 +9,7 @@ const AcceptRequest = () => {
   return (
     <>
       <div className={Style.container}>
+       
         
         <div className={Style.imgText}>
           <div className={Style.imgBox}>

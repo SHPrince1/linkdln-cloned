@@ -1,14 +1,35 @@
 .container {
-  margin-top: -250px;
+  margin: -250px auto;
+  border: 1px solid rgba(0,0,0,.2);
+  width: 70%;
+  display: flex;
+  gap: 40px;
 }
-.recentsCard{
-  /* margin-top: -250px; */
+.RecentCardContainer{
+  width: 100%;
+  margin-top: -22rem;
+  display: flex;
+  flex-direction: column;
   /* border: 1px solid red; */
 }
 
+
+
+.acceptRequest{
+  text-align: left;
+  /* padding: 0 40px; */
+  width: 100%;
+  /* margin-right: 10px; */
+  border: 1px solid rgba(0,0,0,.2);
+  
+}
+.acceptRequest h6{
+  text-align: left;
+  padding: 0 0 0 100px;
+}
 .conntectSuggest {
   /* border: 1px solid red; */
-  width: 55%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -21,7 +42,7 @@
 }
 .onlineEventsContainer {
     border: 1px solid rgba(0,0,0,.2);
-  width: 55%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -34,7 +55,7 @@
   
  
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 55%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -42,7 +63,7 @@
 }
 .TrendingCareerContainer{
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 55%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -61,6 +82,12 @@
   .conntectSuggest {
     width: 100%;
     height: auto;
+  }
+  .RecentCardContainer{
+    display: none;
+    width: 100%;
+    margin-top: -20rem;
+    /* border: 1px solid red; */
   }
   .onlineEventsContainer {
     /* border: 1px solid black; */
