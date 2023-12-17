@@ -3,7 +3,7 @@ import Style from "../../../src/styles/manage-networks.module.css";
 
 import { IoStatsChartSharp } from "react-icons/io5";
 import { CiHashtag } from "react-icons/ci";
-import { FaPlus } from "react-icons/fa";
+// import { FaPlus } from "react-icons/fa";
 
 const ManageNetworks = () => {
   return (
