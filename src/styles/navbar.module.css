@@ -5,6 +5,7 @@
 .genDiv{
     width: 100%;
     /* background-color: black; */
+    background-color: #fff;
     box-shadow: 5px 0 5px 0 #000;
     height: 50px;
     display: flex;

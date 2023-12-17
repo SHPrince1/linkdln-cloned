@@ -1,6 +1,7 @@
 
 .container{
     border: 1px solid rgba(0,0,0,.2);
+    background-color: #fff;
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     position: absolute;
     width: 16%;

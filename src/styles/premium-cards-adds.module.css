@@ -1,6 +1,7 @@
 .container {
   /*border: 1px solid red;
     */
+    background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
