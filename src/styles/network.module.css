@@ -73,12 +73,15 @@
 
 @media only screen and (max-width: 425px) {
   .container {
-    margin-top: -20px;
+   
     /* border: 1px solid red; */
-    width: 95%;
-    margin: 0 auto;
+    width: 96%;
+    margin: -50px auto;
   }
-
+  .acceptRequest h6{
+    text-align: left;
+    padding: 0 0 0 12px;
+  }
   .conntectSuggest {
     width: 100%;
     height: auto;
