@@ -5,17 +5,18 @@ import Style from "../styles/network.module.css";
 import OnlineEvents from "../components/network Components/online-events";
 import TrendingPeople from "../components/network Components/trending-people";
 import FollowCareer from "../components/network Components/follow-career";
-import RecentCard from "../components/destop/recent-card";
+// import RecentCard from "../components/destop/recent-card";
+import PremiumAddsCard from "../components/destop/premium-adds-card";
+import ManageNetworks from "../components/network Components/manage-networks";
 const Network = () => {
   return (
     <div className={Style.container}>
       <div className={Style.RecentCardContainer}>
-        <RecentCard />
-       
-        
+        <ManageNetworks />
+        <div className={Style.premiumCardDiv}>
+          <PremiumAddsCard />
+        </div>
       </div>
-
-      
 
       <div className={Style.NetworkCardsContainer}>
         <div className={Style.acceptRequest}>

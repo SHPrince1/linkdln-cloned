@@ -1,0 +1,57 @@
+.container{
+    border: 1px solid rgba(0,0,0,.2);
+    margin: 350px auto;
+    /* position: absolute; */
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.recentCardHeader{
+    text-align: left;
+    padding: 0 8px;
+    margin-top: -18px;
+}
+.recentGroupHeader{
+    text-align: left;
+    padding: 0 8px;
+    color: blue;
+}
+.iconJobDiv{
+    /* line-height: 1; */
+    margin-top: -10px;
+}
+.iconJob{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    margin-top: -26px;
+}
+.iconJob p{
+    color: #707070;
+    text-align: left;
+    max-width: 500px;
+    /* width: 100%; */
+    font-weight: 600;
+}
+.container p{
+    font-size: 16px;
+}
+.groupsBox{
+    /* border: 1px solid red; */
+    margin-top: -30px;
+}
+.AddEventBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+}
+.AddEventBox p{
+    font-weight: bold;
+    color: blue;
+}
