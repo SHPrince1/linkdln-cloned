@@ -1,7 +1,7 @@
 import React from 'react'
 import RecentSearch from './recent-search'
 import Style from '../../styles/job-page.module.css'
-import MobileTopNav from '../mobile-top-nav'
+// import MobileTopNav from '../mobile-top-nav'
 
 const JobComponent = () => {
   return (
