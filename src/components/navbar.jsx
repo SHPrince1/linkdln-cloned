@@ -57,7 +57,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className={Style.linkDiv}>
-              <a href="/notifications">
+              <a href="/notification">
                 <MdNotifications className={Style.icon} />
                 <p>Notification</p>
               </a>
@@ -123,7 +123,7 @@ const NavBar = () => {
           </div>
 
           <div className={Style.linkDiv}>
-            <a href="/">
+            <a href="/post">
              
 
               <MdAddComment className={Style.icon} />
@@ -131,14 +131,14 @@ const NavBar = () => {
             </a>
           </div>
           <div className={Style.linkDiv}>
-            <a href="/">
+            <a href="/notification">
               <MdNotifications className={Style.icon} />
               <p>Notifications</p>
             </a>
           </div>
          
           <div className={Style.linkDiv}>
-            <a href="/">
+            <a href="/jobs">
               <ImBriefcase className={Style.icon} />
               <p>Jobs</p>
             </a>
