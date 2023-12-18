@@ -1,0 +1,30 @@
+.serachClear{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.btnDiv{
+    /* position: absolute; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btnDiv button{
+    width: 100px;
+}
+.jobsRecom{
+    border: 1px solid #707070;
+    width: 98%;
+    margin: 0 auto;
+    text-align: left;
+}
+.jobsRecom h3{
+    padding: 0 6px;
+}
+.linkIcon{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* margin-top:0; */
+}

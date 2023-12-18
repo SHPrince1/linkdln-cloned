@@ -1,0 +1,11 @@
+.serachClear{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.comPlace{
+    border: 1px solid #707070;
+    padding: 0 10px;
+    line-height: 1;
+    text-align: left;
+}
