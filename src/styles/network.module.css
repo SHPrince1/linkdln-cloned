@@ -1,6 +1,6 @@
 .container {
   margin: -250px auto;
-  background-color: #fff;
+  /* background-color: #fff; */
   /* border: 1px solid rgba(0,0,0,.2); */
   /* border: 1px solid red; */
   width: 75%;
@@ -10,7 +10,7 @@
 .RecentCardContainer{
   position: relative;
   width: 100%;
-  margin-top: -22rem;
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   /* border: 1px solid red; */
@@ -27,6 +27,7 @@
   /* padding: 0 40px; */
   width: 100%;
   /* margin-right: 10px; */
+  /* margin: 300px auto; */
   border: 1px solid rgba(0,0,0,.2);
   
 }
@@ -38,7 +39,7 @@
   /* border: 1px solid red; */
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   display: flex;
   flex-wrap: wrap;
   /* height: 58vh; */
@@ -46,6 +47,10 @@
   gap: 6px;
   /* margin-top: -10px; */
   /* flex: 1 1 50%; */
+}
+.NetworkCardsContainer{
+  margin-top: 275px;
+  background-color: #fff;
 }
 .onlineEventsContainer {
     border: 1px solid rgba(0,0,0,.2);
@@ -129,6 +134,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .NetworkCardsContainer{
+    margin-top: 0px;
+    background-color: #fff;
   }
   
 }

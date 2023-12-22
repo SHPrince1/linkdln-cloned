@@ -1,5 +1,6 @@
 .notiContainer{
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     /* border: 1px solid red; */
     position: relative;
 }
@@ -11,7 +12,7 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    margin: 45px auto;
+    margin: -45px auto;
     
     /* border: 1px solid red; */
 }
@@ -27,4 +28,37 @@
 .notifiCards2{
     /* position: absolute; */
     margin-top: 100px;
+}
+
+@media only screen and (max-width:425px) {
+    .notiContainer{
+        width: 100%;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+    
+    
+    .mutliplesBtn{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        margin: 45px auto;
+        
+        /* border: 1px solid red; */
+    }
+    .mutliplesBtn button{
+        width: 80px;
+    }
+    
+    .notifiCards{
+        width: 98%;
+        margin: 0 auto;
+        /* position: relative; */
+    }
+    .notifiCards2{
+        /* position: absolute; */
+        margin-top: 100px;
+    }
 }

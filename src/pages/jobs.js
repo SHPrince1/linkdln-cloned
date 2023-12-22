@@ -6,7 +6,7 @@ import RecommendedJob from "../components/job/recommended-job";
 
 const Jobs = () => {
   return (
-    <div>
+    <div className={Style.container}>
       <MobileTopNav />
       <div className={Style.btnDiv}>
         <button>My jobs</button>
