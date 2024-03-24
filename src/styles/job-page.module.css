@@ -1,11 +1,13 @@
 .container{
     width: 60%;
     margin: 0 auto;
+    background-color: #f4f2ee;
 }
 .serachClear{
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    background-color: #fff;
 }
 .btnDiv{
     /* position: absolute; */
@@ -18,10 +20,12 @@
     width: 100px;
 }
 .jobsRecom{
-    border: 1px solid #707070;
-    width: 98%;
+    /* border: 1px solid #707070; */
+    border: 1px solid rgba(0,0,0,.2);
+    width: 68%;
     margin: 0 auto;
     text-align: left;
+    background-color: #fff;
 }
 .jobsRecom h3{
     padding: 0 6px;
@@ -32,6 +36,21 @@
     text-decoration: none;
     /* margin-top:0; */
 }
+.rescentSearchBoxContainer{
+    width: 68%;
+    margin: 18px auto;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.researchBox{
+    /* line-height: ; */
+    margin-bottom:10px;
+    /* border: 1px Solid black; */
+    width: 90%;
+}
+
 @media only screen and (max-width:425px) {
 
     .container{

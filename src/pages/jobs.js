@@ -8,11 +8,11 @@ const Jobs = () => {
   return (
     <div className={Style.container}>
       <MobileTopNav />
-      <div className={Style.btnDiv}>
+      {/* <div className={Style.btnDiv}>
         <button>My jobs</button>
         <button>My jobs</button>
         <button>My jobs</button>
-      </div>
+      </div> */}
       <JobComponent />
 
       <div className={Style.jobsRecom}>

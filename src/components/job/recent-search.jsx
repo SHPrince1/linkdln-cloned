@@ -8,6 +8,7 @@ const RecentSearch = () => {
       <div className={Style.comPlace}>
         <p>Microsoft</p>
         <p>UK London</p>
+        <hr/>
       </div>
      
     </div>

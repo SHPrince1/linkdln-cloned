@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "../../../src/styles/accept-request.module.css";
-import { GrFormCheckmark } from "react-icons/gr";
-import { HiXMark } from "react-icons/hi2";
+// import { GrFormCheckmark } from "react-icons/gr";
+// import { HiXMark } from "react-icons/hi2";
 
 import Image from "../../assets/hope.jpg";
 // import RecentCard from "../destop/recent-card";
@@ -31,12 +31,13 @@ const AcceptRequest = () => {
         </div>
         <div className={Style.acceptRejectBox}>
           <div className={Style.circleX}>
-          <HiXMark  size={40} />
+          {/* <HiXMark  size={40} /> */}
+          <a href="www.new">Ignore</a>
          
           </div>
           <div className={Style.circle}>
          
-          <GrFormCheckmark size={40} />
+          {/* <GrFormCheckmark size={40} /> */}<a href="www.v"> Accept</a>
 
           </div>
         </div>
