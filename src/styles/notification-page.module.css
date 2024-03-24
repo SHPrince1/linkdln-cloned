@@ -9,15 +9,24 @@
 .mutliplesBtn{
     display: flex;
     gap: 10px;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    margin: -45px auto;
+    justify-content: left;
+    align-content: center;
+    
+    /* position: absolute; */
+    width: 58%;
+    height: 60px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 0 10px ;
     
     /* border: 1px solid red; */
 }
 .mutliplesBtn button{
-    width: 80px;
+    width: 70px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    /* padding: 10px; */
 }
 
 .notifiCards{
@@ -27,7 +36,7 @@
 }
 .notifiCards2{
     /* position: absolute; */
-    margin-top: 100px;
+    margin-top: 18px;
 }
 
 @media only screen and (max-width:425px) {

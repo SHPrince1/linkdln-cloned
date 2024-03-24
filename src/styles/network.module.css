@@ -38,9 +38,9 @@
 }
 .conntectSuggest {
   /* border: 1px solid red; */
-  width: 100%;
+  width: 88%;
   height: auto;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 10px 10px;
   display: flex;
   flex-wrap: wrap;
   /* height: 58vh; */
@@ -55,29 +55,29 @@
 }
 .onlineEventsContainer {
     border: 1px solid rgba(0,0,0,.2);
-  width: 100%;
+  width: 90%;
   height: auto;
-  margin: 0 auto;
+  margin: 20px auto 20px 10px;
   display: flex;
   flex-wrap: wrap;
   /* height: 58vh; */
   flex-direction: row;
-  gap: 6px;
+  gap: 10px;
 }
 .TrendingPeopleContainer{
   
  
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 100%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 0 auto 20px 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .TrendingCareerContainer{
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 100%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 0 auto 20px 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

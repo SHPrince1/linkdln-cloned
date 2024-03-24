@@ -1,9 +1,9 @@
 
 
 .cardContainer{
-    /* border: 1px solid red; */
+    border: 1px #707070;
     width: 32%;
-    margin: 0 auto;
+    margin: 10px auto;
     /* margin-top: 80px; */
     background-color: #fff;
 }
