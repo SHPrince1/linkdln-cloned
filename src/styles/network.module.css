@@ -25,10 +25,11 @@
 .acceptRequest{
   /* text-align: left; */
   /* padding: 0 40px; */
-  width: 100%;
+  width: 90%;
   /* margin-right: 10px; */
   /* margin: 300px auto; */
   border: 1px solid rgba(0,0,0,.2);
+  background-color: #fff;
   
 }
 .acceptRequest h6{
@@ -50,7 +51,7 @@
 }
 .NetworkCardsContainer{
   margin-top: 275px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .onlineEventsContainer {
     border: 1px solid rgba(0,0,0,.2);
