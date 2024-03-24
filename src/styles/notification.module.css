@@ -5,8 +5,16 @@
     width: 58%;
     margin: 6px auto;
     display: flex;
-    justify-content: space-evenly;
+    padding: 0 16px;
+    justify-content: space-between;
     align-items: center;
+}
+.imageNotif{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 20px;
 }
 .imagDiv img{
     width: 60px;
