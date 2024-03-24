@@ -52,8 +52,9 @@
         gap: 10px;
         justify-content: center;
         position: absolute;
-        width: 100%;
-        margin: 45px auto;
+        width: 96%;
+        height: 50px;
+        margin: 38px auto;
         
         /* border: 1px solid red; */
     }

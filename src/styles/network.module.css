@@ -98,6 +98,7 @@
   .conntectSuggest {
     width: 100%;
     height: auto;
+    margin: 0 auto;
   }
   .RecentCardContainer{
     display: none;
@@ -140,5 +141,14 @@
     margin-top: 0px;
     background-color: #fff;
   }
-  
+  .acceptRequest{
+    /* text-align: left; */
+    /* padding: 0 40px; */
+    width: 100%;
+    /* margin-right: 10px; */
+    /* margin: 300px auto; */
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: #fff;
+    
+  }
 }
