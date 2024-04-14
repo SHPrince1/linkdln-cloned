@@ -1,6 +1,6 @@
 .parentContainer{
     width: 70%;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -17,6 +17,7 @@
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 0 2px 3px rgba(0,0,0,.2);
     width: 50%;
+    background-color: #fff;
     /*margin: -260px auto auto auto;
     */border-radius: 10px;
     /*box-shadow: 0 10 10 #000;
